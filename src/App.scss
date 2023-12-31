@@ -1,0 +1,42 @@
+@import "./sass/color";
+@import "./sass/bootstrap";
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+main {
+  flex: 1 0 auto;
+}
+
+.textArea {
+  height: 250px;
+}
+
+.scroll {
+  overflow-y: scroll;
+}
+.github {
+  position: fixed;
+  top: 8px;
+  right: 8px;
+  font-size: 40px;
+  border-radius: 90% !important;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Change the width of the scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Change the color of the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: $success;
+  border-radius: 50px;
+}
