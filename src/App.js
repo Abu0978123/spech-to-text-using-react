@@ -440,8 +440,8 @@ export default function App() {
       </div>
       <span className="fs-1 ">
         <a
-          target="_blanck"
-          href="https://github.com/Zeeshankhaliq219/SPEECH-TO-TEXT-CONVERTOR"
+          target="_blank"
+          href="https://github.com/Abu0978123/spech-to-text-using-react"
         >
           <i className="fa-brands github fa-github rounded-circle bg-white"></i>
         </a>
